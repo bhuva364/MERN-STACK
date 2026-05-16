@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main{ 
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int x= sc.nextInt();
+        int y=sc.nextInt();
+        if(x>10){
+            if(y>20){
+                System.out.println("Both conditions are true");
+            }
+        }
+
+    }
+}
